@@ -1,0 +1,51 @@
+$gray90: #1f1f1f;
+$gray60: #5c5c5c;
+$gray40: #adadad;
+$gray10: #f5f5f5;
+
+$app: #F8A832;
+
+%primary {
+  color: $gray90;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+
+  @media all and (max-width: 600px) {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
+
+%secondary {
+  color: $gray60;
+  font-size: 14px;
+  line-height: 22px;
+
+  @media all and (max-width: 600px) {
+  }
+}
+
+%h1 {
+  color: $gray90;
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 700;
+
+  @media all and (max-width: 600px) {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
+
+%h2 {
+  color: $gray90;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 700;
+
+  @media all and (max-width: 600px) {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
